@@ -12,9 +12,9 @@ public class InsertionSort {
            for(int j=i-1;j>=0;j--){
              if(key<arr[j]){
                  arr[j+1] = arr[j];
+                 arr[j] = key;
              }
              else{
-                 arr[j+1] = key;
                  break;
              }
            }
